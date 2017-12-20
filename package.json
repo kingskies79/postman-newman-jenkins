@@ -1,0 +1,15 @@
+{
+  "name": "post",
+  "version": "1.0.0",
+  "description": "Project for Postman tests",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "api-tests-production": "newman run tests/jsonplaceholder.com.postman_collection.json"
+  },
+  "author": "Fabio Leotta",
+  "dependencies": {
+    "newman": "^3.9.1"
+  }
+}
