@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "api-tests-production": "newman run './tests/jsonplaceholder.com.postman_collection.json'"
+    "api-tests-production": "newman run tests/jsonplaceholder.com.postman_collection.json"
   },
   "author": "Fabio Leotta",
   "dependencies": {
